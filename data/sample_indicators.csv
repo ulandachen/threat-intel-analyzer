@@ -1,0 +1,7 @@
+value,indicator_type,severity,confidence,first_seen,source,tags,mitre_techniques
+198.51.100.24,ip,critical,96,2026-09-27T14:30:00Z,demo-feed,c2|malware,T1071|T1105
+malicious-login.example,domain,high,90,2026-09-26T08:10:00Z,demo-feed,phishing|credential-theft,T1566|T1056
+hxxps://update-check.example/payload,url,high,82,2026-09-20T16:45:00Z,demo-feed,malware-delivery,T1105
+44d88612fea8a8f36de82e1278abb02f,hash,medium,75,2026-08-29T09:00:00Z,demo-feed,malware,T1204
+MALICIOUS-LOGIN.EXAMPLE,domain,high,68,2026-09-25T10:00:00Z,secondary-feed,phishing,T1566
+203.0.113.77,ip,low,45,2026-06-10T11:20:00Z,demo-feed,scanner,T1595
